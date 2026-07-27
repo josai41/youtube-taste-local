@@ -85,6 +85,29 @@ h2 {
 .document h1 { font-size: clamp(34px, 6vw, 48px); }
 .updated { margin: 12px 0 40px; color: var(--muted); }
 
+.ja { margin-top: -20px; }
+
+.language-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin: 0 0 34px;
+}
+
+.language-nav a {
+  padding: 5px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.language-section {
+  margin-top: 72px;
+  padding-top: 58px;
+  border-top: 3px solid var(--ink);
+}
+
 section {
   padding: 28px 0;
   border-top: 1px solid var(--line);
